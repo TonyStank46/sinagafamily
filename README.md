@@ -52,7 +52,7 @@
     section h2 { margin-bottom: 10px; color: #0077b6; }
 
     /* Profile Image */
-    .profile-img {
+    2305112005.jpg {
       width: 150px;
       border-radius: 50%;
       margin: 10px 0;
