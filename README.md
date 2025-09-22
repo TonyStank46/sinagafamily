@@ -2,128 +2,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portofolio Pribadi Tony Sinaga">
   <title>Portofolio - Tony Sinaga</title>
-
   <style>
-    /* Reset dasar */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    /* Reset & Global */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; background: #f4f4f9; color: #333; }
 
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-    }
-
+    /* Header */
     header {
-      background: #00e6e6;
-      padding: 40px 20px;
+      background: #0077b6;
+      color: white;
+      padding: 20px;
       text-align: center;
-      color: #111;
     }
+    header h1 { margin-bottom: 5px; }
+    header p { font-size: 14px; }
 
-    header h1 {
-      margin-bottom: 10px;
-      font-size: 2.2rem;
+    /* Layout */
+    .container { display: flex; min-height: 100vh; }
+
+    /* Sidebar */
+    nav {
+      width: 220px;
+      background: #023e8a;
+      color: white;
+      padding: 20px;
+      flex-shrink: 0;
     }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 15px;
-    }
-
+    nav h2 { margin-bottom: 15px; }
+    nav ul { list-style: none; }
+    nav ul li { margin: 10px 0; }
     nav ul li a {
+      color: white;
       text-decoration: none;
-      font-weight: bold;
-      color: #111;
-      transition: color 0.3s;
-    }
-
-    nav ul li a:hover {
-      color: #ff6600;
-    }
-
-    main {
-      width: 90%;
-      max-width: 1000px;
-      margin: 30px auto;
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    section h2 {
-      margin-bottom: 15px;
-      font-size: 1.8rem;
-      border-bottom: 2px solid #00cccc;
-      display: inline-block;
-      padding-bottom: 5px;
-    }
-
-    #about img {
-      margin-top: 15px;
-      max-width: 180px;
-      border-radius: 10px;
-    }
-
-    #skills ul {
-      list-style: disc;
-      margin-left: 20px;
-    }
-
-    form label {
       display: block;
-      margin: 10px 0 5px;
-      font-weight: bold;
-    }
-
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
+      padding: 8px 10px;
       border-radius: 5px;
+      transition: 0.3s;
     }
+    nav ul li a:hover { background: #0077b6; }
 
-    form input[type="submit"] {
-      background: #00cccc;
-      border: none;
-      font-weight: bold;
-      cursor: pointer;
+    /* Main Content */
+    main {
+      flex: 1;
+      padding: 20px;
+      background: #fff;
     }
+    section { margin-bottom: 30px; }
+    section h2 { margin-bottom: 10px; color: #0077b6; }
 
-    form input[type="submit"]:hover {
-      background: #009999;
-      color: #fff;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #111;
-      color: #eee;
-      margin-top: 40px;
+    /* Profile Image */
+    .profile-img {
+      width: 150px;
+      border-radius: 50%;
+      margin: 10px 0;
     }
 
     /* Responsive */
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
+    @media (max-width: 768px) {
+      .container { flex-direction: column; }
+      nav { width: 100%; }
+    }
 
-      nav ul {
-        flex-direction: column;
-        gap: 10px;
-      }
+    /* Footer */
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
@@ -131,49 +77,53 @@
   <header>
     <h1>Tony Sinaga</h1>
     <p>Web Developer & Designer</p>
-    <nav>
-      <ul>
-        <li><a href="#about">Tentang Saya</a></li>
-        <li><a href="#skills">Keahlian</a></li>
-        <li><a href="#contact">Kontak</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <main>
-    <section id="about">
-      <h2>Tentang Saya</h2>
-      <p>Saya adalah seorang web developer dengan pengalaman 6 tahun dalam membangun aplikasi web modern.</p>
-      <img src="profile.jpg" alt="Foto Tony Sinaga">
-    </section>
-
-    <section id="skills">
-      <h2>Keahlian</h2>
+  <div class="container">
+    <!-- Sidebar -->
+    <nav>
+      <h2>Dashboard</h2>
       <ul>
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>HTML & CSS</li>
-        <li>Git & GitHub</li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#keluarga">Keluarga</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#motto">Motto</a></li>
       </ul>
-    </section>
+    </nav>
 
-    <section id="contact">
-      <h2>Kontak</h2>
-      <form>
-        <label for="name">Nama:</label>
-        <input type="text" id="name" name="nama" required>
+    <!-- Main Content -->
+    <main>
+      <section id="profil">
+        <h2>Profil</h2>
+        <img src="profile.jpg" alt="Foto Tony Sinaga" class="profile-img">
+        <p>Halo! Saya <b>Tony Sinaga</b>, seorang Web Developer & Designer dengan pengalaman 6 tahun. 
+        Saya berfokus pada pembuatan website modern, responsif, dan mudah digunakan.</p>
+      </section>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+      <section id="keluarga">
+        <h2>Keluarga</h2>
+        <p>Saya berasal dari keluarga yang sederhana dan penuh kasih. 
+        Keluarga selalu menjadi motivasi utama saya untuk terus berkembang dan berkarya.</p>
+      </section>
 
-        <label for="message">Pesan:</label>
-        <textarea name="message" id="message" rows="5" required></textarea>
+      <section id="pendidikan">
+        <h2>Pendidikan</h2>
+        <ul>
+          <li>SD Swasta Josua MEDAN</li>
+          <li>SMP Negeri 35 MEDAN</li>
+          <li>SMK Negeri 1 Percut Sei Tuan</li>
+          <li>Ahli Madya Komputer - Politeknik Negeri Medan</li>
+        </ul>
+      </section>
 
-        <input type="submit" value="Kirim Pesan">
-      </form>
-    </section>
-  </main>
+      <section id="motto">
+        <h2>Motto</h2>
+        <blockquote>
+          "Tetap rendah hati, terus belajar, dan jangan pernah takut gagal."
+        </blockquote>
+      </section>
+    </main>
+  </div>
 
   <footer>
     <p>&copy; 2025 Tony Sinaga. All Rights Reserved.</p>
