@@ -52,7 +52,7 @@
     section h2 { margin-bottom: 10px; color: #0077b6; }
 
     /* Profile Image */
-    2305112005.jpg {
+    .2305112005-img {
       width: 150px;
       border-radius: 50%;
       margin: 10px 0;
@@ -91,7 +91,7 @@
       </ul>
     </nav>
 
-    <!-- Main Content -->
+   <!-- Main Content -->
     <main>
       <section id="profil">
         <h2>Profil</h2>
