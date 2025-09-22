@@ -74,6 +74,44 @@
 .keluarga-foto img:hover {
   transform: scale(1.05);
 }
+/* Karya Saya */
+.karya-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.karya-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.karya-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.karya-card h3 {
+  margin: 10px 0 5px;
+}
+
+.karya-card p {
+  font-size: 14px;
+  padding: 0 10px;
+  color: #444;
+}
+
+.karya-card a {
+  display: inline-block;
+  margin
+
 
 
     /* Responsive */
@@ -137,6 +175,38 @@
           <li>Ahli Madya Komputer - Politeknik Negeri Medan</li>
         </ul>
       </section>
+
+       <section id="karya">
+  <h2>Karya Saya</h2>
+  <p>Beberapa karya dan proyek yang sudah saya kerjakan:</p>
+
+  <div class="karya-grid">
+    <!-- Karya 1 -->
+    <div class="karya-card">
+      <img src="karya1.jpg" alt="Karya 1">
+      <h3>Website Portfolio</h3>
+      <p>Website pribadi dengan desain modern menggunakan HTML, CSS, dan JavaScript.</p>
+      <a href="https://github.com/tonystank46/portfolio" target="_blank">Lihat</a>
+    </div>
+
+    <!-- Karya 2 -->
+    <div class="karya-card">
+      <img src="karya2.jpg" alt="Karya 2">
+      <h3>Aplikasi IoT</h3>
+      <p>Sistem monitoring suhu berbasis Arduino & Blynk.</p>
+      <a href="#">Lihat</a>
+    </div>
+
+    <!-- Karya 3 -->
+    <div class="karya-card">
+      <img src="karya3.jpg" alt="Karya 3">
+      <h3>Desain UI</h3>
+      <p>Mockup aplikasi mobile dengan Figma untuk manajemen tugas harian.</p>
+      <a href="#">Lihat</a>
+    </div>
+  </div>
+</section>
+
 
       <section id="motto">
         <h2>Motto</h2>
