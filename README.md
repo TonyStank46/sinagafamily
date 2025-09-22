@@ -131,7 +131,7 @@
 </head>
 <body>
   <header>
-    <h1>Tony Sinaga</h1>
+    <h1>Tony Wijaya Sinaga</h1>
     <p>Web Developer & Designer</p>
   </header>
 
