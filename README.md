@@ -172,6 +172,7 @@
           <li>SD Swasta Josua MEDAN</li>
           <li>SMP Negeri 35 MEDAN</li>
           <li>SMK Negeri 1 Percut Sei Tuan</li>
+          <a href="https://smkn1-pst.sch.id" target="_blank">
           <li>Ahli Madya Komputer - Politeknik Negeri Medan</li>
         </ul>
       </section>
