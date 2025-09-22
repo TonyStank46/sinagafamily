@@ -91,11 +91,11 @@
       </ul>
     </nav>
 
-    <!-- Main Content -->
+    < Main Content >
     <main>
       <section id="profil">
         <h2>Profil</h2>
-        <img src="profile.jpg" alt="Foto Tony Sinaga" class="profile-img">
+        <img src="2305112005.jpg" alt="Foto Tony Sinaga" class="profile-img">
         <p>Halo! Saya <b>Tony Sinaga</b>, seorang Web Developer & Designer dengan pengalaman 6 tahun. 
         Saya berfokus pada pembuatan website modern, responsif, dan mudah digunakan.</p>
       </section>
