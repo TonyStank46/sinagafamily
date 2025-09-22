@@ -58,12 +58,23 @@
       margin: 10px 0;
     }
 
-    /* Keluarga Image */
-    .MEITU_20250912_125908159-img {
-      width: 150px;
-      border-radius: 50%;
-      margin: 10px 0;
-    }
+    /* Foto Keluarga */
+.keluarga-foto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+.keluarga-foto img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.keluarga-foto img:hover {
+  transform: scale(1.05);
+}
+
 
     /* Responsive */
     @media (max-width: 768px) {
@@ -109,9 +120,12 @@
 
       <section id="keluarga">
         <h2>Keluarga</h2>
-         <img src="MEITU_20250912_125908159.jpg" alt="Foto Keluarga class="keluarga-img">
         <p>Saya berasal dari keluarga yang sederhana dan penuh kasih. 
         Keluarga selalu menjadi motivasi utama saya untuk terus berkembang dan berkarya.</p>
+        <!-- Foto keluarga -->
+        <div class="keluarga-foto">
+        <img src="MEITU_20250912_125908159.jpg" alt="Foto Keluarga 1">
+  </div>
       </section>
 
       <section id="pendidikan">
