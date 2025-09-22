@@ -91,7 +91,7 @@
       </ul>
     </nav>
 
-    < Main Content >
+    <!-- Main Content -->
     <main>
       <section id="profil">
         <h2>Profil</h2>
