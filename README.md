@@ -109,7 +109,7 @@
 
       <section id="keluarga">
         <h2>Keluarga</h2>
-         <img src="MEITU_20250912_125908159.jpg" alt="Foto Tony Sinaga" class="keluarga-img">
+         <img src="MEITU_20250912_125908159.jpg" alt="Foto Keluarga class="keluarga-img">
         <p>Saya berasal dari keluarga yang sederhana dan penuh kasih. 
         Keluarga selalu menjadi motivasi utama saya untuk terus berkembang dan berkarya.</p>
       </section>
