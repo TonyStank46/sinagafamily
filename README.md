@@ -58,6 +58,13 @@
       margin: 10px 0;
     }
 
+    /* Keluarga Image */
+    .MEITU_20250912_125908159-img {
+      width: 150px;
+      border-radius: 50%;
+      margin: 10px 0;
+    }
+
     /* Responsive */
     @media (max-width: 768px) {
       .container { flex-direction: column; }
@@ -102,6 +109,7 @@
 
       <section id="keluarga">
         <h2>Keluarga</h2>
+         <img src="MEITU_20250912_125908159.jpg" alt="Foto Tony Sinaga" class="keluarga-img">
         <p>Saya berasal dari keluarga yang sederhana dan penuh kasih. 
         Keluarga selalu menjadi motivasi utama saya untuk terus berkembang dan berkarya.</p>
       </section>
