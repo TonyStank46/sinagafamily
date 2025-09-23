@@ -205,9 +205,9 @@
 
     <!-- Karya 3 -->
     <div class="karya-card">
-      <img src="karya3.jpg" alt="Karya 3">
-      <h3>Desain UI</h3>
-      <p>Mockup aplikasi mobile dengan Figma untuk manajemen tugas harian.</p>
+      <img src="AUTOBACKUP_OF_WALLPAPER CHAT WA.jpg" alt="Karya 3">
+      <h3>Desain</h3>
+      <p>Desain Corel Draw</p>
       <a href="#">Lihat</a>
     </div>
   </div>
