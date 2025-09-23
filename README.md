@@ -68,7 +68,7 @@
 }
 
     /* Foto Keluarga */
-    .keluarga-foto {
+    /*.keluarga-foto {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       gap: 15px;
@@ -82,6 +82,7 @@
     }
     .keluarga-foto img:hover {
       transform: scale(1.05);
+- */
 }
 /* Karya Saya */
 .karya-grid {
@@ -169,10 +170,6 @@
         <h2>Keluarga</h2>
         <p>Saya berasal dari keluarga yang sederhana dan penuh kasih. 
         Keluarga selalu menjadi motivasi utama saya untuk terus berkembang dan berkarya.</p>
-        <!-- Foto keluarga -->
-        <div class="keluarga-foto">
-        <img src="MEITU_20250912_125908159.jpg" alt="Foto Keluarga 1">
-  </div>
       </section>
 
       <section id="pendidikan">
