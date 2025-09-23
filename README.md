@@ -208,7 +208,7 @@
       <img src="AUTOBACKUP_OF_WALLPAPER CHAT WA.jpg" alt="Karya 3">
       <h3>Desain</h3>
       <p>Desain Corel Draw</p>
-      <a href="#">Lihat</a>
+      <a href="https://github.com/TonyStank46/sinagafamily/blob/main/AUTOBACKUP_OF_WALLPAPER%20CHAT%20WA.jpg">Lihat</a>
     </div>
   </div>
 </section>
