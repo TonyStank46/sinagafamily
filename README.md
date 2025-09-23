@@ -170,6 +170,7 @@
         <h2>Keluarga</h2>
         <p>Saya berasal dari keluarga yang sederhana dan penuh kasih. 
         Keluarga selalu menjadi motivasi utama saya untuk terus berkembang dan berkarya.</p>
+        <p>Nama Ayah: Haryanto Sinaga
       </section>
 
       <section id="pendidikan">
