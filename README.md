@@ -57,22 +57,31 @@
       border-radius: 50%;
       margin: 10px 0;
     }
+    .2305112005-img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .2305112005-img:hover {
+      transform: scale(1.05);
+}
 
     /* Foto Keluarga */
-.keluarga-foto {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  margin-top: 15px;
-}
-.keluarga-foto img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  transition: transform 0.3s;
-}
-.keluarga-foto img:hover {
-  transform: scale(1.05);
+    .keluarga-foto {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .keluarga-foto img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .keluarga-foto img:hover {
+      transform: scale(1.05);
 }
 /* Karya Saya */
 .karya-grid {
