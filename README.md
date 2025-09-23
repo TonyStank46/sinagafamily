@@ -52,18 +52,18 @@
     section h2 { margin-bottom: 10px; color: #0077b6; }
 
     /* Profile Image */
-    .2305112005-img {
+    .profile-img {
       width: 150px;
       border-radius: 50%;
       margin: 10px 0;
     }
-    .2305112005-img {
+    .profile-img {
       width: 100%;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
       transition: transform 0.3s;
     }
-    .2305112005-img:hover {
+    .profile-img:hover {
       transform: scale(1.05);
 }
 
@@ -180,8 +180,8 @@
         <ul>
           <li>SD Swasta Josua MEDAN</li>
           <li>SMP Negeri 35 MEDAN</li>
-          <li>SMK Negeri 1 Percut Sei Tuan</li>
-          <li>Ahli Madya Komputer - Politeknik Negeri Medan</li>
+          <li><a href ="https://smkn1-pst.sch.id/">SMK Negeri 1 Percut Sei Tuan</a></li>
+          <li><a href ="https://polmed.ac.id/">Ahli Madya Komputer - Politeknik Negeri Medan</a></li>
         </ul>
       </section>
 
